@@ -28,7 +28,7 @@
     color: aliceblue;
 }
 
-
+ 
 .a{
     padding-left: 0rem;
     margin: auto;
@@ -59,7 +59,15 @@
 .car{
     margin: auto; 
     display: block;
+   
 }
+.carIn{
+    height: 25rem;
+    margin: auto; 
+    display: block;
+   
+}
+
 .middle{
     margin: auto;
     background-color: lightgray;
