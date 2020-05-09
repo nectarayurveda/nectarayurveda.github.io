@@ -1,25 +1,39 @@
 .top{
-    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
+   background-color:  #4d0000;
     padding: 0.5rem;
     
 }
 .navbar{
     background: #4d0000 !important;
 }
-.container-fluid{
-    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
-}
+
 .imgLogoTop{
     width: 11rem;
     border-radius: 0.4rem; 
     border: 1px solid white;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
 }
+.btnA,.btnB{
+    border: 1px solid darkgreen ;
+    width:5rem;
+    
+}
+
+.btnA:hover,.btnB:hover{
+    background:linear-gradient(green,darkgreen);
+    color: aliceblue;
+}
 
 .a{
     padding-left: 0rem;
     margin: auto;
 }
+.b{
+    padding-right: 0;
+    margin: auto;
+    text-align: right
+}
+
 /*body*/
 .C2{
     background-color: lightgrey;
