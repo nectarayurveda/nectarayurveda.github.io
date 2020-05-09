@@ -10,7 +10,7 @@
 .cbody{
     background-color: antiquewhite;
     font-family: 'Gotu';
-    font-weight: 600;
+    
     color: brown;
 }
 
@@ -42,7 +42,7 @@
 }
 .b{
     padding-right: 0;
-    margin: auto;
+    margin: auto; 
     text-align: right
 }
 .sloka{

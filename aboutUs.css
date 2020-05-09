@@ -1,18 +1,18 @@
 .top{
-    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
+    background-color:  #4d0000;
     padding: 0.5rem;
     
 }
-.container-fluid{
-    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
-}
+
 .navbar{
     background: #4d0000 !important;
 }
-/*body*/
+/*body*/ 
 .cbody{
-    background-color: aliceblue;
+    background-color: antiquewhite;
+    font-family: 'Gotu';
     
+    color: brown;
 }
 .imgLogoTop{
     width: 11rem;
@@ -42,7 +42,8 @@
 .b{
     padding-right: 0;
     margin: auto;
-    text-align: right
+    text-align: right;
+    
 }
 .modalFoot{
     display: block;
