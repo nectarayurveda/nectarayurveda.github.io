@@ -261,16 +261,16 @@
           <div class="row">
 <div class="col-12 preComp">
 <div class="row">
-<div class="col-7">
+<div class="col-4 col-md-8">
    <div class="form-group">
     <label for="exampleFormControlInput1">Complain</label>
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your problem here...">
   </div>                   
 </div>
     
-<div class="col">
-                             <div class="row">
-                                <div class="col-3"><label>Input</label>
+
+                             
+                                <div class="col-2 col-md-1"><label>Input</label>
                                     <select id="iInput" class="form-control">
           
         <option selected value="1">1</option>
@@ -289,7 +289,7 @@
                                  </div>
 
                              
-                             <div class="col">
+                             <div class="col-2 col-md-2">
             <label class="">Duration</label>
       <select id="iDuration" class="form-control">
           
@@ -300,10 +300,7 @@
         <option value="Decade">Decade</option>
       </select>
     </div>
-    <div class="col"><button class="btn-primary btn-lg btn" onclick="dAdd()">Submit </button></div>
-    </div>
-    
-    </div>
+    <div class="col-4 col-md-1"><button class="btn-primary btn-lg btn bAdd" onclick="dAdd()">Add</button></div>
                        
                     </div>
               
@@ -326,6 +323,41 @@
               
               
               <hr>
+<!--            investigation report-->
+            <div class="row">
+                <div class="col">
+                    <form action="#">
+                        <div class="row">
+  <div class="col-8 col-md-11"><input type="file" id="myFile" name="filename"></div>
+  <div class="col-4 col-md-1"><input class="btn-primary btn" type="submit" value="Upload" ></div></div>
+</form>
+                </div>
+            
+            </div>
+            <hr>
+            
+<div class="row">
+<div class="col">
+   <div class="form-group">
+   
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Past History">
+  </div>                   
+</div>
+
+    <div class="col">
+   <div class="form-group">
+    
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Family History">
+  </div>   
+       
+</div>
+    
+    
+                       
+                    </div>
+            <hr>
+            <div class="row"><button class="btn-primary btn-lg btn bSub" onclick="">Submit</button></div>
+             
 
               
               </div>
