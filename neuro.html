@@ -22,20 +22,17 @@
 <!--    top  header-->
     <div class="container-fluid">
         <div class="row top">
-            <div class="col-6 col-md-6 a">
+            <div class="col col-md-6 a">
                 <a href="index.html">
                     <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid imgLogoTop" alt="logo">
                 </a>
             </div>
-             <div class="col-6 col-md-6 b">
+             <div class="col-5 col-sm-5 col-md-6 b">
                 <button type="button" class="btn btn-light btn-sm btnA" data-toggle="modal" data-target="#signIn">Sign In</button>
                 <button type="button" class="btn btn-light btnB btn-sm" data-toggle="modal" data-target="#signUp">Sign Up</button>
             </div>
-
-            <div class="col col-md-6 b">
-            </div>
         </div>
-        
+    </div>
         
 <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
@@ -73,7 +70,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Diseases
         </a>
-       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="dig.html">Digestive</a>
             <a class="dropdown-item " href="res.html">Respiratory</a>
             <a class="dropdown-item" href="cardio.html">Cardiovascular</a>
@@ -130,22 +127,55 @@
 
         </nav>
 <!--body-->
-<div class="row rbody">
-        <div class="col cbody">
-    <p>This website is created by Dr. Ashutosh Kumar Mishra. He has more than 20 years experience in the field of ayurveda. Main purpose behind this website is to make people healthy with ayurveda.<br><br>
-            These days people are suffering from diet and lifestyle disorder diseases , Aurveda have solution to resolve these problems. Main aim of ayurveda is to sustain health to the healthy person and cure diseases of the patients.<br><br>
-            Ayurveda teaches about the healthy lifestyle and healthy diet for that daily healthy regimen and seasonal regimen is mentioned in ayurveda. Inspite of that ayurveda advices rasayan therapy for being healthy. It also explain about healthy diet.</p>
-            
+<div class="container-fluid">
+<div class="row body">
+  <div class="col-6 col-sm-4 col-md-2 sideCol">
+    <div class="leftNav nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#trigeminalNeuralgia" role="tab" aria-controls="v-pills-home" aria-selected="true">Trigeminal neuralgia</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#Paralysis" role="tab" aria-controls="v-pills-messages" aria-selected="false">Paralysis</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#myastheniaGravis" role="tab" aria-controls="v-pills-settings" aria-selected="false">Myasthenia gravis</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#sciatica" role="tab" aria-controls="v-pills-settings" aria-selected="false">Sciatica</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#Migraine" role="tab" aria-controls="v-pills-settings" aria-selected="false">Migraine</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#Parkinson" role="tab" aria-controls="v-pills-settings" aria-selected="false">Parkinson</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#Epilepsy" role="tab" aria-controls="v-pills-settings" aria-selected="false">Epilepsy</a>
+      
     </div>
+  </div>
+    
+  <div class="col-6">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="trigeminalNeuralgia" role="tabpanel" aria-labelledby="v-pills-home-tab">
+        <p>Trigeminal neuralgia
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"> </div>
+      <div class="tab-pane fade" id="Paralysis" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+        <p>Paralysis
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"></div>
+      <div class="tab-pane fade" id="myastheniaGravis" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <p>Myasthenia gravis
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"></div>
+        <div class="tab-pane fade" id="sciatica" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <p>Sciatica</p><img src="RESOURCES/Multimedia/" class="img-fluid">
         </div>
+        <div class="tab-pane fade" id="Migraine" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <p>Migraine</p><img src="RESOURCES/Multimedia/" class="img-fluid">
+        </div>
+        <div class="tab-pane fade" id="Parkinson" role="tabpanel" aria-labelledby="v-pills-settings-tab"><p>Parkinson</p><img src="RESOURCES/Multimedia/" class="img-fluid"></div>
+        <div class="tab-pane fade" id="Epilepsy" role="tabpanel" aria-labelledby="v-pills-settings-tab"><p>Epilepsy</p><img src="RESOURCES/Multimedia/" class="img-fluid"></div>
+        
+    </div>
+  </div>
+</div>
 <!--Footer-->
                 <footer class="footer bg-dark foot">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-5 col-12 col-lg-3">
                         <img class="img-fluid size" src="RESOURCES/Multimedia/logo.jpg">
                     </div>
-                    <div class="col-6 col-lg-9 footsy">
+                    <div class="col-sm-5 col-10 col-lg-9 footsy">
                         <a href="https://www.facebook.com/" target="_blank">
                             <i class="fa fa-facebook-square" style="font-size:60px"></i></a>
                         <a href="https://www.instagram.com/" target="_blank">
@@ -157,9 +187,6 @@
 
             </div>
         </footer>
-
-
-
 
     </div>
 <!--    modal-->

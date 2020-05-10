@@ -15,8 +15,6 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis|Gilda+Display|Gotu|Macondo|Playfair+Display|Quicksand&display=swap" rel="stylesheet">
     <!--      main style sheet-->
     <link rel="stylesheet" href="muskel.css">
-    <script src="RESOURCES/file.js"></script>
-
     <title>Nectarveda | Ayurvedic Consultation Services</title>
 </head>
 
@@ -29,12 +27,12 @@
                     <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid imgLogoTop" alt="logo">
                 </a>
             </div>
-            <div class="col-5 col-sm-5 col-md-6 b">
+             <div class="col-5 col-sm-5 col-md-6 b">
                 <button type="button" class="btn btn-light btn-sm btnA" data-toggle="modal" data-target="#signIn">Sign In</button>
                 <button type="button" class="btn btn-light btnB btn-sm" data-toggle="modal" data-target="#signUp">Sign Up</button>
             </div>
         </div>
-        
+    </div>
         
 <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
@@ -50,7 +48,7 @@
                         <a class="nav-link" href="aboutUs.html">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="modal" data-target="#"  href="#">Online Consultation</a>
+                        <a class="nav-link" data-toggle="modal" data-target="#signIn"  href="#">Online Consultation</a>
                     </li>
                     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -58,7 +56,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="ayurved.html">Ayurveda</a>
-            <a class="dropdown-item" href="ayurvedAvtaran.html">Ayurveda-Avtaran</a>
+           <a class="dropdown-item" href="ayurvedAvtaran.html">Ayurveda-Avtaran</a>
           <a class="dropdown-item" href="ashtangAyurveda.html">Ashtang Ayurveda</a>
           <a class="dropdown-item" href="triDosha.html">Tri-Dosha</a>
           <a class="dropdown-item" href="shapt.html">Shapt Dhatu</a>
@@ -68,11 +66,11 @@
           
         </div>
       </li>
-                     <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Diseases
         </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="dig.html">Digestive</a>
             <a class="dropdown-item " href="res.html">Respiratory</a>
             <a class="dropdown-item" href="cardio.html">Cardiovascular</a>
@@ -129,274 +127,60 @@
 
         </nav>
 <!--body-->
-        <div class="C2">
-            <div class="row bodyR">
-                <div class="col-6 pInfo">
-                    
-<form>
-  <div class="row">
-    <div class="col"><input type="text" class="form-control" placeholder="Patient ID"></div>
-    </div>
-  <div class="row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="First name">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Last name">
+<div class="container-fluid">
+<div class="row body">
+  <div class="col-6 col-sm-4 col-md-2 sideCol">
+    <div class="leftNav nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#Osteoarthritis" role="tab" aria-controls="v-pills-home" aria-selected="true">Osteoarthritis</a>
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#Osteoporosis" role="tab" aria-controls="v-pills-profile" aria-selected="false">Osteoporosis</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#rheumatoidArthritis" role="tab" aria-controls="v-pills-messages" aria-selected="false">Rheumatoid arthritis</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#lupusErythematosus" role="tab" aria-controls="v-pills-settings" aria-selected="false">Lupus erythematosus</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#cervicalSpondylitis" role="tab" aria-controls="v-pills-settings" aria-selected="false">Cervical spondylitis</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#lumbarSpondylitis" role="tab" aria-controls="v-pills-settings" aria-selected="false">Lumbar spondylitis</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#ankylosingSpondylitis" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ankylosing spondylitis</a> 
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#frozenShoulder" role="tab" aria-controls="v-pills-settings" aria-selected="false">Frozen shoulder</a> 
     </div>
   </div>
-  <div class="row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Age">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Sex">
-    </div>
-  </div>
-      <div class="row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Height">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Weight">
-    </div>
-  </div>
-    <div class="row">
-    <div class="col"><input type="text" class="form-control" placeholder="Occupation"></div>
-    </div>
-    <div class="row">
-    </div>
     
-</form>
+  <div class="col-6">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="Osteoarthritis" role="tabpanel" aria-labelledby="v-pills-home-tab">
+        <p>Osteoarthritis
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"> </div>
+      <div class="tab-pane fade" id="Osteoporosis" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+        <p>Osteoporosis
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"></div>
+      <div class="tab-pane fade" id="rheumatoidArthritis" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+        <p>Rheumatoid arthritis
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"></div>
+      <div class="tab-pane fade" id="lupusErythematosus" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <p>Lupus erythematosus
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"></div>
+        <div class="tab-pane fade" id="cervicalSpondylitis" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <p>Cervical spondylitis</p><img src="RESOURCES/Multimedia/" class="img-fluid">
         </div>
-                
-                
-                
-                <div class="col-6 p Address">
-                    <form>
-  <div class="row">
-    <div class="col"><input type="text" class="form-control" placeholder="Address"></div>
+        <div class="tab-pane fade" id="lumbarSpondylitis" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <p>Lumbar spondylitis</p><img src="RESOURCES/Multimedia/" class="img-fluid">
+        </div>
+        <div class="tab-pane fade" id="ankylosingSpondylitis" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <p>Ankylosing spondylitis</p><img src="RESOURCES/Multimedia/" class="img-fluid">
+        </div>
+        <div class="tab-pane fade" id="frozenShoulder" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <p>Frozen shoulder</p><img src="RESOURCES/Multimedia/" class="img-fluid">
+        </div>
+        
     </div>
-  <div class="row">
-    <div class="col">
-     <input type="text" class="form-control" placeholder="City">
+  </div>
 </div>
-      <div class="col">
-     <input type="text" class="form-control" placeholder="Post Office">
-</div></div>
-      <div class="row">
-      <div class="col-6">
-     <input type="text" class="form-control" placeholder="Landmark">
-</div><div class="col-6">
-     <input type="text" class="form-control" placeholder="District">
-</div>
-      </div>
-    <div class="row">
-
-    <div class="col">
-      <select id="inputState" class="form-control">
-        <option selected>State</option>
-        <option></option>
-      </select>
-    </div><div class="col-6">
-     <input type="text" class="form-control" placeholder="PIN">
-</div></div>
-  
-  
-     
-   
-    <div class="row">
-    
-    </div>
-    <div class="row">
-   <div class="col"><input type="text" class="form-control" placeholder="Mobile No"></div>
-    </div>
-</form>
-                </div>
-              </div>
-              <hr>
-          
-          
-             
-<div class="row">
-<div class="col">
-            <label class="">BP</label>
-      <select id="inputState" class="form-control">
-          
-        <option selected>Normal
-          </option>
-        <option>High</option>
-        <option>Low</option>
-        <option>Normal with Medication</option>
-        <option>High with Medication</option>
-      </select>
-    </div>
-<div class="col">
-            <label class="">Diabetes</label>
-      <select id="inputState" class="form-control">
-          
-        <option selected>Normal
-          </option>
-        <option>High</option>
-        <option>Low</option>
-        <option>Normal with Medication</option>
-        <option>High with Medication</option>
-      </select>
-    </div>
-<div class="col">
-            <label class="">Thyroid</label>
-      <select id="inputState" class="form-control">
-          
-        <option selected>Normal
-          </option>
-        <option>High</option>
-        <option>Low</option>
-        <option>Normal with Medication</option>
-        <option>High with Medication</option>
-      </select>
-    </div>
-              
-              </div>
-              
-              
-              <hr>
-          <div class="row">
-                <div class="col-12 hab">
-                    <div class="row">
-                        <div class="col-6"><div class="col">
-            <label class="">Food and Nutrition</label>
-      <select id="inputState" class="form-control">
-          
-        <option selected>Vegetarian
-          </option>
-        <option>Non-Vegetarian</option>
-      </select>
-    </div></div>
-                        <div class="col-6"><div class="col">
-            <label class="">Lifestyle</label>
-      <select id="inputState" class="form-control">
-          
-        <option selected>Normal
-          </option>
-        <option>Sedantry</option>
-        <option>Labourious</option>
-      </select>
-    </div></div>
-                        
-                    
-                    </div>
-              
-              </div>
-              </div>
-              <hr>
-          <div class="row">
-<div class="col-12 preComp">
-<div class="row">
-<div class="col-4 col-md-8">
-   <div class="form-group">
-    <label for="exampleFormControlInput1">Complain</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your problem here...">
-  </div>                   
-</div>
-    
-
-                             
-                                <div class="col-2 col-md-1"><label>Input</label>
-                                    <select id="iInput" class="form-control">
-          
-        <option selected value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-      </select>
-                                 </div>
-
-                             
-                             <div class="col-2 col-md-2">
-            <label class="">Duration</label>
-      <select id="iDuration" class="form-control">
-          
-        <option selected value="Days">Days</option>
-        <option value="Weeks">Week</option>
-        <option value="Months">Months</option>
-        <option value="Years">Year</option>
-        <option value="Decade">Decade</option>
-      </select>
-    </div>
-    <div class="col-4 col-md-1"><button class="btn-primary btn-lg btn bAdd" onclick="dAdd()">Add</button></div>
-                       
-                    </div>
-              
-              </div>
-              
-              </div>
-              <div class="row other">
-                <div class="col-4" id="rOther">
-                  
-                  </div>
-              </div>
-              <div class="row pComp">
-                    <div class="col-3" id="System"></div>
-                    <div class="col-5" id="Symptom"></div>
-                    
-                    <div class="col-1" id="Input"></div>
-                    <div class="col-3" id="Duration"></div>
-                  
-              </div>
-              
-              
-              <hr>
-<!--            investigation report-->
-            <div class="row">
-                <div class="col">
-                    <form action="#">
-                        <div class="row">
-  <div class="col-8 col-md-11"><input type="file" id="myFile" name="filename"></div>
-  <div class="col-4 col-md-1"><input class="btn-primary btn" type="submit" value="Upload" ></div></div>
-</form>
-                </div>
-            
-            </div>
-            <hr>
-            
-<div class="row">
-<div class="col">
-   <div class="form-group">
-   
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Past History">
-  </div>                   
-</div>
-
-    <div class="col">
-   <div class="form-group">
-    
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Family History">
-  </div>   
-       
-</div>
-    
-    
-                       
-                    </div>
-            <hr>
-            <div class="row"><button class="btn-primary btn-lg btn bSub" onclick="">Submit</button></div>
-             
-
-              
-              </div>
 <!--Footer-->
                 <footer class="footer bg-dark foot">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-7 col-12 col-lg-3">
+                    <div class="col-sm-5 col-12 col-lg-3">
                         <img class="img-fluid size" src="RESOURCES/Multimedia/logo.jpg">
                     </div>
                     <div class="col-sm-5 col-10 col-lg-9 footsy">
@@ -412,9 +196,136 @@
             </div>
         </footer>
 
+    </div>
+<!--    modal-->
+    <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title modalHead" id="contentLabel">Welcome to Nectarveda</h5>
+
+                </div>
+                <div class="modal-body signin-body">
+                    <div class="container signin-container">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-10">
+                                <div class="card signin-card">
+
+                                    <div class="card-body">
+                                        <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid signInImg signin-img">
+                                        <form class="signin-form">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                                            </div>
+
+
+                                            <div class="form-check">
+
+                                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" > Remember me
+                                </label><a href="#">Forgot Password?</a>
+                                            </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+
+                        </div>
 
 
 
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary modalFoot" href="profile.html">Sign In</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title modalHead" id="contentLabel">Welcome to Blonate</h5>
+
+                </div>
+                <div class="modal-body signin-body">
+                    <div class="container signin-container">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-12">
+                                <div class="card signin-card">
+
+                                    <div class="card-body">
+                                        <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid signInImg signin-img">
+                                        <form class="signin-form">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="First Name">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="emailInput" placeholder="Last Name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="emailInput" placeholder="Age">
+                                                </div>
+
+
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="emailInput" placeholder="Mobile Number">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                                            </div>
+                                            <div class="form-group"> 
+                                                <input type="password" class="form-control" id="passwordInput" placeholder="Confirm Password">
+                                            </div>
+
+
+                                            <div class="form-check">
+
+                                                <label class="form-check-label">
+                                  <input class="form-check-input" type="checkbox" > By creating an account you agree to our Terms and Conditions.
+                                </label>
+                                                <a href="#"></a>
+                                            </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary modalFoot" data-dismiss="modal">Sign Up</button>
+
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- JavaScript -->

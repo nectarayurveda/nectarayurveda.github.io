@@ -1,18 +1,25 @@
 .top{
-    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
+    background-color:  #4d0000;
     padding: 0.5rem;
     
 }
-.container-fluid{
-    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
-}
+
 .navbar{
     background: #4d0000 !important;
 }
-/*body*/
-.cbody{
+.leftNav{
     background-color: aliceblue;
+}
+/*body*/
+.body{
+    background-color:antiquewhite;
+    color: brown;
+    margin: auto
     
+}
+.sideCol{
+    padding: 0rem;
+    margin: 0rem;
 }
 .imgLogoTop{
     width: 11rem;
@@ -26,7 +33,7 @@
  
 .btnA,.btnB{
     border: 1px solid darkgreen ;
-    
+    width: 5rem;
 }
 
 .btnA:hover,.btnB:hover{

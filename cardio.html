@@ -22,20 +22,17 @@
 <!--    top  header-->
     <div class="container-fluid">
         <div class="row top">
-            <div class="col-6 col-md-6 a">
+            <div class="col col-md-6 a">
                 <a href="index.html">
                     <img src="RESOURCES/Multimedia/logo.jpg" class="img-fluid imgLogoTop" alt="logo">
                 </a>
             </div>
-             <div class="col-6 col-md-6 b">
+             <div class="col-5 col-sm-5 col-md-6 b">
                 <button type="button" class="btn btn-light btn-sm btnA" data-toggle="modal" data-target="#signIn">Sign In</button>
                 <button type="button" class="btn btn-light btnB btn-sm" data-toggle="modal" data-target="#signUp">Sign Up</button>
             </div>
-
-            <div class="col col-md-6 b">
-            </div>
         </div>
-        
+    </div>
         
 <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
@@ -69,11 +66,11 @@
           
         </div>
       </li>
-                     <li class="nav-item dropdown">
+                    <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Diseases
         </a>
-       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="dig.html">Digestive</a>
             <a class="dropdown-item " href="res.html">Respiratory</a>
             <a class="dropdown-item" href="cardio.html">Cardiovascular</a>
@@ -130,22 +127,48 @@
 
         </nav>
 <!--body-->
-<div class="row rbody">
-        <div class="col cbody">
-    <p>This website is created by Dr. Ashutosh Kumar Mishra. He has more than 20 years experience in the field of ayurveda. Main purpose behind this website is to make people healthy with ayurveda.<br><br>
-            These days people are suffering from Food and Nutrition and lifestyle disorder diseases , Aurveda have solution to resolve these problems. Main aim of ayurveda is to sustain health to the healthy person and cure diseases of the patients.<br><br>
-            Ayurveda teaches about the healthy lifestyle and healthy Food and Nutrition for that daily healthy regimen and seasonal regimen is mentioned in ayurveda. Inspite of that ayurveda advices rasayan therapy for being healthy. It also explain about healthy Food and Nutrition.</p>
-            
+<div class="container-fluid">
+<div class="row body">
+  <div class="col-6 col-sm-4 col-md-2 sideCol">
+    <div class="leftNav nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#Hypertension" role="tab" aria-controls="v-pills-home" aria-selected="true">Hypertension</a>
+      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#cad" role="tab" aria-controls="v-pills-profile" aria-selected="false">Coronary artery disease</a>
+      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#mitralStenosis" role="tab" aria-controls="v-pills-messages" aria-selected="false">Mitral Stenosis</a>
+      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#varicoseVein" role="tab" aria-controls="v-pills-settings" aria-selected="false">Varicose Vein</a>
+       
     </div>
-        </div>
+  </div>
+    
+  <div class="col-6">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="Hypertension" role="tabpanel" aria-labelledby="v-pills-home-tab">
+        <p>Hypertension
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"> </div>
+      <div class="tab-pane fade" id="cad" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+        <p>Coronary artery disease
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"></div>
+      <div class="tab-pane fade" id="mitralStenosis" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+        <p>Mitral Stenosis
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"></div>
+      <div class="tab-pane fade" id="varicoseVein" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+        <p>Varicose Vein
+          </p>
+        <img src="RESOURCES/Multimedia/" class="img-fluid"></div>
+       
+    </div>
+  </div>
+</div>
 <!--Footer-->
                 <footer class="footer bg-dark foot">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-5 col-12 col-lg-3">
                         <img class="img-fluid size" src="RESOURCES/Multimedia/logo.jpg">
                     </div>
-                    <div class="col-6 col-lg-9 footsy">
+                    <div class="col-sm-5 col-10 col-lg-9 footsy">
                         <a href="https://www.facebook.com/" target="_blank">
                             <i class="fa fa-facebook-square" style="font-size:60px"></i></a>
                         <a href="https://www.instagram.com/" target="_blank">
@@ -157,9 +180,6 @@
 
             </div>
         </footer>
-
-
-
 
     </div>
 <!--    modal-->
