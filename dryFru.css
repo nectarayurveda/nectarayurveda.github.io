@@ -22,7 +22,11 @@
     
 }
 .thumb{
-    width: 12rem;
+    width: 12em;
+    
+}
+th td {
+    font-size: 1px;
 }
 .sloka{
 
