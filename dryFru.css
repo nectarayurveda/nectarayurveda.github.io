@@ -25,6 +25,10 @@
     width: 12em;
     
 }
+button img{
+    float: left;
+}
+
 th td {
     font-size: 1px;
 }
