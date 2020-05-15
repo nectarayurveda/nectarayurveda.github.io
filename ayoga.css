@@ -11,15 +11,61 @@
     background-color: aliceblue;
 }
 /*body*/
-.body{
-    background-color:antiquewhite;
-    color: brown;
-    margin: auto
+
+.head_img{
+    border-radius: 50%;
     
 }
 .card-header{
     background-color: antiquewhite;
     
+}
+.row_header{
+    background-color: lemonchiffon
+}
+.header{
+    background: radial-gradient(white,yellow,#ff3300)
+}
+.header_text{
+    font-family: 'Gotu';
+    font-size: 4em;
+    color: brown;
+}
+.header_img{
+    width: 1em;
+    border-radius: 50%;
+    border: 1px solid orange;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
+    
+}
+.Body{
+    background: radial-gradient(white,yellow,coral);
+    
+}
+.body_text{
+    font-size: 2.5em;
+    font-family: 'Gotu';
+    color: brown;
+}
+.body_img{
+    width: 1.2em;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
+}
+.cont{
+    padding: 2rem;
+}
+.card{
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
+}
+.card-head{
+    padding-top: 0.3em;
+    text-align: center;
+    font-family:'Gotu';
+    font-size: 2em;
+    color: darkblue;
+    font-weight: 600
 }
 .thumb{
     width: 12rem;
@@ -173,7 +219,7 @@ p{
 }
 
 img.signin-img{
-    
+     
     margin:auto;
     display: block;
     width: 70%;
