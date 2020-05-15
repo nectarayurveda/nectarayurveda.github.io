@@ -14,6 +14,17 @@
     
     color: brown;
 }
+.profile{
+    
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    margin: auto;
+    display: block;
+    
+}
 .imgLogoTop{
     width: 11rem;
     border-radius: 0.4rem; 
