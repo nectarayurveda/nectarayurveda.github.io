@@ -17,6 +17,13 @@
     margin: auto
     
 }
+.card-header{
+    background-color: antiquewhite;
+    
+}
+.thumb{
+    width: 12rem;
+}
 .sloka{
 
     border-radius: 0.4rem; 
