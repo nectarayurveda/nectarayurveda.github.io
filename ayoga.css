@@ -28,7 +28,7 @@
 }
 .header_text{
     font-family: 'Gotu';
-    font-size: 3em;
+    font-size: 40px;
     color: brown;
 }
 .header_img{
@@ -43,7 +43,7 @@
     
 }
 .body_text{
-    font-size: 2.5em;
+    font-size: 30px;
     font-family: 'Gotu';
     color: brown;
 }
