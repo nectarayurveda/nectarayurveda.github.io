@@ -3,17 +3,36 @@
     padding: 0.5rem;
     
 }
+
 .navbar{
     background: #4d0000 !important;
 }
-/*body*/
-.cbody{
-    background-color: antiquewhite;
-    font-family: 'Gotu';
-    
-    color: brown;
+.leftNav{
+    background-color: aliceblue;
 }
-
+/*body*/
+.body{
+    background-color:antiquewhite;
+    color: brown;
+    margin: auto
+    
+}
+.row .col-3 img{
+    border-radius: 50%;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    
+}
+.row .col-3 img.brain{
+    border: 0.5em solid brown;  
+}
+.brain{
+     border: 0.1em solid brown;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+}
+.sideCol{
+    padding: 0rem;
+    margin: 0rem;
+}
 .imgLogoTop{
     width: 11rem;
     border-radius: 0.4rem; 
@@ -27,7 +46,6 @@
 .btnA,.btnB{
     border: 1px solid darkgreen ;
     width: 5rem;
-    
 }
 
 .btnA:hover,.btnB:hover{
@@ -42,14 +60,8 @@
 }
 .b{
     padding-right: 0;
-    margin: auto; 
-    text-align: right
-}
-.sloka{
-    display: block;
     margin: auto;
-    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
-    border-radius: 5px
+    text-align: right
 }
 .modalFoot{
     display: block;
@@ -192,4 +204,3 @@ form.signin-form{
     text-align: start ;
     margin: auto;
 }
-
