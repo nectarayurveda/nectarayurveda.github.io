@@ -16,6 +16,13 @@
     
     
 }
+.col-3 .img-fluid{
+     border-radius: 50%;
+     box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
+    width: 6em;
+    height: 5em;
+   
+}
 .flo{
     background-color:floralwhite;
 }
@@ -33,7 +40,7 @@
     background-color: lemonchiffon
 }
 .header{
-    background: radial-gradient(white,yellow,#ff3300)
+    background: radial-gradient(white 20%,lightgreen 70%)
 }
 .header_text{
     font-family: 'Gotu';
