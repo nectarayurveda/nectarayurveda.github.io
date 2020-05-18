@@ -1,14 +1,25 @@
 .top{
     background-color:  #4d0000;
-    padding: 0.5rem;
+    padding: 0.5rem;  
     
 }
 
 .navbar{
     background: #4d0000 !important;
+    
 }
 
 /*body*/
+.tglBtn{
+    background-color: royalblue;
+    border-style: none;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+.fa-angle-double-down{
+    width: 1em;
+}
 
 .head_img{
     border-radius: 50%;
