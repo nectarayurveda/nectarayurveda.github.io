@@ -1,42 +1,18 @@
-.top{ 
-    background-color:  #4d0000;
+.top{
+    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
     padding: 0.5rem;
     
 }
- 
+.container-fluid{
+    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
+}
 .navbar{
     background: #4d0000 !important;
 }
-.leftNav{
-    background-color: aliceblue;
-}
 /*body*/
-.body{
-    background-color:antiquewhite;
-    color: brown;
-    margin: auto
+.cbody{
+    background-color: aliceblue;
     
-}
-.card-header{
-    background-color: antiquewhite;
-    
-}
-.thumb{
-    width: 12em;
-    
-}
-button img{
-    float: left;
-}
-
-th td {
-    font-size: 1px;
-}
-.sloka{
-
-    border-radius: 0.4rem; 
-    border: 1px solid white;
-    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
 }
 .imgLogoTop{
     width: 11rem;
@@ -50,7 +26,7 @@ th td {
  
 .btnA,.btnB{
     border: 1px solid darkgreen ;
-    width: 5rem;
+    
 }
 
 .btnA:hover,.btnB:hover{

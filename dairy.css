@@ -1,42 +1,19 @@
-.top{ 
-    background-color:  #4d0000;
+.top{
+   background-color:  #4d0000;
     padding: 0.5rem;
     
 }
- 
+
 .navbar{
     background: #4d0000 !important;
 }
-.leftNav{
-    background-color: aliceblue;
-}
-/*body*/
-.body{
-    background-color:antiquewhite;
-    color: brown;
-    margin: auto
-    
-}
-.card-header{
+/*body*/ 
+.cbody{
     background-color: antiquewhite;
+    font-family: 'Gotu';
     
-}
-.thumb{
-    width: 12em;
+    color: brown;
     
-}
-button img{
-    float: left;
-}
-
-th td {
-    font-size: 1px;
-}
-.sloka{
-
-    border-radius: 0.4rem; 
-    border: 1px solid white;
-    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
 }
 .imgLogoTop{
     width: 11rem;
@@ -50,7 +27,8 @@ th td {
  
 .btnA,.btnB{
     border: 1px solid darkgreen ;
-    width: 5rem;
+    width:5rem;
+    
 }
 
 .btnA:hover,.btnB:hover{

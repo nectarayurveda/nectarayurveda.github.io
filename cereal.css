@@ -1,43 +1,19 @@
-.top{ 
+.top{
     background-color:  #4d0000;
     padding: 0.5rem;
     
 }
- 
 .navbar{
     background: #4d0000 !important;
 }
-.leftNav{
-    background-color: aliceblue;
-}
 /*body*/
-.body{
-    background-color:antiquewhite;
-    color: brown;
-    margin: auto
-    
-}
-.card-header{
+.cbody{
     background-color: antiquewhite;
+    font-family: 'Gotu';
     
-}
-.thumb{
-    width: 12em;
-    
-}
-button img{
-    float: left;
+    color: brown;
 }
 
-th td {
-    font-size: 1px;
-}
-.sloka{
-
-    border-radius: 0.4rem; 
-    border: 1px solid white;
-    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
-}
 .imgLogoTop{
     width: 11rem;
     border-radius: 0.4rem; 
@@ -51,6 +27,7 @@ th td {
 .btnA,.btnB{
     border: 1px solid darkgreen ;
     width: 5rem;
+    
 }
 
 .btnA:hover,.btnB:hover{
@@ -65,8 +42,14 @@ th td {
 }
 .b{
     padding-right: 0;
-    margin: auto;
+    margin: auto; 
     text-align: right
+}
+.sloka{
+    display: block;
+    margin: auto;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    border-radius: 5px
 }
 .modalFoot{
     display: block;
