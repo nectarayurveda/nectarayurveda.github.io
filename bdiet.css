@@ -1,18 +1,42 @@
 .top{
-    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
+    background-color:  #4d0000;
     padding: 0.5rem;
     
 }
-.container-fluid{
-    background: linear-gradient(to right,#651a1a,#d04949,#651a1a);
-}
+ 
 .navbar{
     background: #4d0000 !important;
 }
-/*body*/
-.cbody{
+.leftNav{
     background-color: aliceblue;
+}
+/*body*/
+.body{
+    background-color:antiquewhite;
+    color: brown;
+    margin: auto
     
+}
+.card-header{
+    background-color: antiquewhite;
+    
+}
+.thumb{
+    width: 12em;
+    
+}
+button img{
+    float: left;
+}
+
+th td {
+    font-size: 1px;
+}
+.sloka{
+
+    border-radius: 0.4rem; 
+    border: 1px solid white;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
 }
 .imgLogoTop{
     width: 11rem;
@@ -26,7 +50,7 @@
  
 .btnA,.btnB{
     border: 1px solid darkgreen ;
-    
+    width: 5rem;
 }
 
 .btnA:hover,.btnB:hover{
@@ -88,16 +112,26 @@
 }
 
 .jumbotron {
+    display: block;
+    margin: auto;
     text-align: center;
     background:linear-gradient(crimson,red);
     color: aliceblue;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     border-radius: 8px;
+    height: 3em;
+    padding: 0.4em;
+    font-family: 'Gotu';
+    font-weight: bold;
+    margin-bottom: 1em;
 }
-jumbotron:hover{
-    background-color: aliceblue;
-    color: red;
+.bTable{
+    border: 1px solid lightgrey;
+    border-top:none ;
+    color: Brown
+    
 }
+
 p{
     text-align: center;
     
