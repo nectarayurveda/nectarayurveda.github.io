@@ -12,7 +12,7 @@
 
 .head_img{
     border-radius: 50%;
-     box-shadow: 3px 3px 5px rgba(0,0,0,0.9);;
+     box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
     
     
 }
@@ -37,8 +37,9 @@
 }
 .header_text{
     font-family: 'Gotu';
-    font-size: 40px;
+    font-size: 2.6em;
     color: brown;
+    font-weight: bold
 }
 .header_img{
     width: 1em;
