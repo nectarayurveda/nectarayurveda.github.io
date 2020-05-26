@@ -13,10 +13,16 @@
 .tglBtn{
     background-color: royalblue;
     border-style: none;
-    width: 6em;
+    width: 7em;
     height: 2.5em;
     border-radius: 0.3em;
-    color: aliceblue
+    color: aliceblue;
+    transition: box-shadow 0.5s;
+}
+.tglBtn:hover{
+    
+    box-shadow: 5px 0px 20px rgba(0,0,0,0.6);
+    
 }
 .fa-angle-double-down{
     width: 1em;
