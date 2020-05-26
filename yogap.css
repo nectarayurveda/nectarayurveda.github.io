@@ -38,10 +38,15 @@
 .col-3 .img-fluid{
      border-radius: 50%;
      box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
-     width: 50%;
+     width: 40%;
+    height: 40%;
     display: block;
-    margin: auto
+    margin: 0.3em;
    
+}
+.row .col p{
+    text-align:right;
+    margin: 1em;
 }
 .flo{
     background-color:floralwhite;
