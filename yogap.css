@@ -24,6 +24,7 @@
     box-shadow: 5px 0px 20px rgba(0,0,0,0.6);
     
 }
+ 
 .fa-angle-double-down{
     width: 1em;
 }
@@ -37,8 +38,9 @@
 .col-3 .img-fluid{
      border-radius: 50%;
      box-shadow: 3px 3px 5px rgba(0,0,0,0.9);
-    width: 6em;
-    height: 5em;
+     width: 50%;
+    display: block;
+    margin: auto
    
 }
 .flo{
