@@ -17,9 +17,12 @@
     margin: auto
     
 }
+div .collapse{
+    overflow-y:scroll;height: 500px;
+}
 .card-header{
     background-color: antiquewhite;
-    
+     
 }
 .thumb{
     width: 12rem;

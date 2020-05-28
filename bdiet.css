@@ -28,7 +28,14 @@
 button img{
     float: left; 
 }
-
+p img{
+    border-radius: 0.5em;
+    transition: box-shadow 0.5s;
+}
+p img:hover{
+    box-shadow: 3px 2px 20px rgba(0,0,0,0.15);
+    border:lightgrey solid 0.1px
+}
 th td {
     font-size: 1px;
 }
