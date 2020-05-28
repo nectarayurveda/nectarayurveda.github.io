@@ -17,14 +17,39 @@
     margin: auto
     
 }
-.card-header{
+.card{
+    padding: 0 !important;
     background-color: antiquewhite;
     
 }
-.thumb{
-    width: 12em;
+.card-body{
+    background-color: white
+}
+.card-header{
+    background-color: antiquewhite;
+    border-radius: 1;
+    margin-top:1em;
+    
     
 }
+.card-footer{
+    background-color: antiquewhite;
+    border-radius: 1;
+    margin-bottom: 1em
+}
+.tongue{
+    border-radius: 1em;
+    
+    padding: 1em;
+    display: block;
+    margin: auto;
+    transition: box-shadow 0.5s;
+}
+.tongue:hover{
+     box-shadow: 3px 2px 20px rgba(0,0,0,0.15);
+    border:lightgrey solid 0.1px
+}
+
 button img{
     float: left; 
 }
