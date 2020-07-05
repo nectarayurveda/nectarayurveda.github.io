@@ -39,9 +39,13 @@
     text-align: center
 }
 .contact{
+    margin: auto;
     color: brown;
     text-decoration: none;
-    text-align: center
+    text-align: center;
+    font-size: 0.9em;
+    font-family: serif;
+    vertical-align: middle;
 }
 /*NAV*/
 .navLogo{
