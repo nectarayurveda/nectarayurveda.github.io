@@ -10,7 +10,7 @@
 }
 .na{
     background-color:cornsilk;
-    color: brown;
+    color: brown; 
     font-size: 1.1em;
     
 }
@@ -52,6 +52,7 @@
     width: 6em;
     border: 2px groove red;
     border-radius:0.4em;
+    transition-duration: 0.3s;
 }
 .navLogo:hover{
     box-shadow: 1px 1px 10px red;
@@ -59,21 +60,41 @@
 .h{
     color: brown;
     margin:0.3em;
-    font-weight:600
+    font-weight:600;
+    transition-duration: 0.3s;
+    padding: 0.2em
         
 }
 .h:active{
-    color: brown 
+    color: brown ;
+    padding: 0.2em
 }
 .h:visited{
     color: brown
 }
 .h:hover{
     border: 1px groove pink;
-    box-shadow: 1px 1px 6px red;
+    box-shadow: 0.2px 0.2px 6px;
     border-radius:0.2em;
 }
 /*content*/
 input{
     margin: 1px;
+}
+
+.pInfo{
+    
+}
+.gifo{
+    
+}
+
+
+.pComp{
+    text-align: center;
+    color: darkblue;
+}
+
+.hidden{
+    display: none;
 }
