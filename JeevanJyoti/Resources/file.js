@@ -77,7 +77,11 @@ function disp() {
     var symp = document.getElementById("symptom");
     symp.setAttribute('list',val);
 }
-
+function dispD() {
+    var val=document.getElementById("systemD").value;
+    var symp = document.getElementById("symptomD");
+    symp.setAttribute('list',val);
+}
 function dAddD() { 
     //
     var node = document.createElement("p") ;
