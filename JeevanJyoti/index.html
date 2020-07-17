@@ -45,7 +45,7 @@
             <div class="collapse navbar-collapse na" id="navbarContent">
             <ul class="navbar-nav">
                 <li class="nav-item active h"><a class="nav-link" href="#">Patient Information</a></li>
-                <li class="nav-item h"><a class="nav-link" href="#">Medicine Prescription</a></li>
+                <li class="nav-item h"><a class="nav-link" href="MedicinePrescription.html">Medicine Prescription</a></li>
                 <li class="nav-item h"><a class="nav-link" href="#">Diet and Lifestyle</a></li>
                 <li class="nav-item h"><a class="nav-link" href="#">Follow up</a></li>
             </ul>
@@ -56,9 +56,9 @@
         <div class="container-fluid">
             <hr>
             <form>
-            <input type="text" name="pId" placeholder="Patient Id" required>
-            <input type="text" name="pMoNo" placeholder="Mobile No " required>
-            <input type="email" name="pEmail" placeholder="Email">
+            <input type="text" name="pId" placeholder="Patient Id" required id="pId">
+            <input type="text" name="pMoNo" id="pMoNo" placeholder="Mobile No " required>
+            <input type="email" name="pEmail" id="pEmail" placeholder="Email">
             <input name="address" type="text" placeholder="Enter your address here">
                 
 <select name="state" id="state">
@@ -102,18 +102,18 @@
 </select>
             <input type="number" name="pincode" maxlength="6" min="100000" placeholder="PIN" max="999999"> 
                 <hr>
-            <input type="Text" name="pFname" placeholder="First Name" required>
-            <input type="Text" name="pMname" placeholder="Middle Name">
-            <input type="Text" name="pLname" placeholder="Last Name" required>
-                <input type="Text" name="pGndr" placeholder="Gender" list="gender" required>
+            <input type="Text" name="pFname" id="pFname" placeholder="First Name" required>
+            <input type="Text" name="pMname" id="pMname" placeholder="Middle Name">
+            <input type="Text" name="pLname" id="pLname" placeholder="Last Name" required>
+                <input type="Text" name="pGndr" id="pGndr"  placeholder="Gender" list="gender" required>
                 <datalist id="gender">
                 <option value="Male"/>
                 <option value="Female"/>
                 </datalist>
-            <input type="number" name="pAge" placeholder="Age" required>
+            <input type="number" name="pAge" id="pAge" placeholder="Age" required>
             <input  type="date" name="DOB" class="mt-1">
-            <input type="number" name="pHt" placeholder="Height">
-            <input type="number" name="pWt" placeholder="Weight(Kg)">
+            <input type="number" name="pHt" id="pHt" placeholder="Height(cm)">
+            <input type="number" name="pWt" id="pWt" placeholder="Weight(Kg)">
                 <input type="text" list="Diet" name="Diet" placeholder="Diet">
                 <datalist id="Diet">
                 <option value="Veg" />
@@ -669,8 +669,8 @@
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-12 col-sm-3 col-md-1" ><input style="width: 100%" type="reset" value="Reset"  class="btn btn-danger m-0"></div>
-                    <div  class="col-12 col-sm-3 col-md-1"><input style="width: 100%"type="button" value="Save" class="btn btn-primary m-0"></div>
-                    <div class="col-12 col-sm-3 col-md-1"><input style="width: 100%" type="submit" value="Submit" class="btn btn-success m-0"></div>
+                    <div  class="col-12 col-sm-3 col-md-1"><input style="width: 100%" type="button" value="Save" onclick="getVal()" class="btn btn-primary m-0"></div>
+                    <div class="col-12 col-sm-3 col-md-1"><input style="width: 100%" type="submit" value="Submit" onclick="getVal()" class="btn btn-success m-0"></div>
                     
                     <div class="col"></div>
                     
